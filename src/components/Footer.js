@@ -30,7 +30,7 @@ export default function Footer() {
                   <a className="footer--nav" href="/Advantages">Why us</a>
                 </li>
                 <li>
-                  <a className="footer--nav" href="/Advantages">Ask us</a>
+                  <a className="footer--nav" href="/Question">Ask us</a>
                 </li>
                 <li>
                   <a className="footer--nav" href="/Services">What we do</a>
