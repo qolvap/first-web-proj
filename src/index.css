@@ -1,0 +1,726 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Rubik,sans-serif;
+}
+
+body {
+  min-height: 100%;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+nav {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  left: 0;
+  margin: 0 auto;
+  padding: 20px 36px;
+  gap: 2rem;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+#nav--logo {
+  margin-left: 40px;
+  width: 100px;
+  height: 40px;
+}
+
+#nav--logo:hover{
+  cursor: pointer;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+nav li:hover {
+  color: #696969;
+  cursor: pointer;
+}
+
+section {
+  padding: 20px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background-color: whitesmoke;
+  height: 250px;
+  width: 250px;
+  margin-top: 30px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.services{
+  height: 400px;
+}
+
+#service--card {
+  cursor: pointer;
+}
+
+#service--card:hover {
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.service--title {
+  display: flex;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 15px;
+}
+
+.service--info {
+  display: flex;
+  align-items: center;
+  margin-right: 3px;
+  margin-left: 3px;
+  gap: 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.service--banner--btn{
+    width: 300px;
+    background-color: #101314;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+    
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.service--banner--btn:hover {
+  background-color: whitesmoke;
+  color: #26272b;
+  border: 1px solid;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+.foot {
+  margin-top: 5rem;
+  padding: 70px 0;
+  justify-content: center;
+  text-align: center;
+  background-color: #26272b;
+  font-size: 15px;
+  color: whitesmoke;
+}
+
+.foot--container {
+  margin: 0 auto !important;
+  max-width: 133rem !important;
+  padding: 0 2.5rem !important;
+}
+
+.row {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+
+.column {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.column ul li a {
+  text-decoration: none;
+  display: block;
+  
+}
+.column ul li a:hover {
+  color: #696969;
+  cursor: pointer;
+}
+
+.footer--nav{
+  color: white;
+  text-decoration: none;
+}
+
+.email--input {
+  background-color: #ececec;
+  border-color: transparent;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  font-family: Rubik, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 10px;
+  margin-top: 1rem;
+  outline: none;
+  padding: 10px 11px;
+}
+
+.email--input:hover {
+  border: 1px solid;
+}
+
+.email--subscribtion {
+  background-color: #ff4d30;
+  border: 2px solid #ff4d30;
+  border-radius: 0.3rem;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 11px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.email--subscribtion:hover {
+  background-color: whitesmoke;
+  color: #26272b;
+  border: 1px solid;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+.about {
+  height: 650px;
+  width: 100%;
+  font-size: 12px;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.about--column--one {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  margin-left: 50px;
+  max-width: 50rem;
+}
+
+.about h4 {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Rubik,sans-serif;
+}
+
+.about h1 {
+  text-align: left;
+  font-family: Poppins,sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about p {
+  text-align: left;
+  font-size: 1rem;
+  line-height: 1.6;
+  font-family: Rubik,sans-serif;
+}
+
+.about span {
+  color: #ff4d30;
+}
+
+.about button {
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.about--text--section h4{
+  font-family: Rubik,sans-serif;
+font-size: 1.8rem;
+font-weight: 500;
+margin-bottom: 1rem;
+}
+
+.about--text--section h1{
+  font-size: 2.4rem;
+line-height: 1.2;
+}
+
+.about--text--section p{
+  color: #706f7b;
+font-family: Rubik,sans-serif;
+font-size: 1.2rem;
+line-height: 1.5;
+margin-bottom: 2rem;
+margin-top: 2rem;
+}
+
+.about--statistics{
+  margin-top: 20px;
+  grid-gap: 4rem;
+  display: grid;
+  gap: 4rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about--statistics h4{
+  font-size: 4.6rem;
+}
+
+.about--statistics p{
+  color: #706f7b;
+font-family: Rubik,sans-serif;
+font-size: 1.4rem;
+line-height: 1.5;
+
+}
+
+.truck--img{
+  position: absolute;
+  right: 0;
+  width: 50%;
+  margin-top: 5rem;
+}
+
+.ask--q--btn {
+    width: 160px;
+    background-color: #ff4d30;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  }
+
+.learn--more--btn {
+  width: 160px;
+  background-color: #101314;
+  color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: auto;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.ask--q--btn:hover {
+  background-color: whitesmoke;
+  color: #26272b;
+  border: 1px solid;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+.learn--more--btn:hover {
+  background-color: whitesmoke;
+  color: #26272b;
+  border: 1px solid;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+.about--btns{
+  display: flex;
+font-family: Rubik,sans-serif;
+font-size: 1.6rem;
+gap: 2rem;
+}
+
+.advantages--section {
+  height: 700px;
+  width: 100%;
+  font-size: 12px;
+  flex: 0 0 auto;
+  position: relative;
+  border: 1px bold;
+  
+}
+
+.advantages--section h4{
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Rubik,sans-serif;
+}
+
+.advantages--section h3{
+  text-align: left;
+  display: block;
+  font-size: 1.4rem;
+}
+
+.advantages--section h1{
+  text-align: left;
+  display: block;
+  font-size: 3rem;
+}
+
+.advantages--section p{
+  display: block;
+  text-align: left;
+  font-family: Rubik,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.advantage--section--left {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+  max-width: 50rem;
+}
+
+.advantage--section--right {
+  display: flex;
+  flex-direction: column;
+  gap: 4.5rem;
+  padding: 50px;
+}
+
+.advantage--container{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.advantage--container--text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.advantages--description {
+  color: #706f7b;
+}
+
+.advantages--span {
+  color: #ff4d30;
+}
+
+.advantages--btn {
+  width: 240px;
+  background-color: #ff4d30;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: auto;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.advantages--btn:hover {
+  background-color: whitesmoke;
+  color: #26272b;
+  border: 1px solid;
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+#guarantee {
+  height: 83px;
+  width: 83px;
+}
+
+#update{
+  height: 80px;
+  width: 80px;
+}
+
+#price {
+  height: 80px;
+  width: 80px;
+}
+
+#ask--steps h2{
+  font-size: 2rem;
+}
+
+.bottom-text{
+  margin-top: 6rem;
+  position: relative;
+  text-align: center;
+  bottom: 100px;
+  color: whitesmoke;
+  font-size: 6rem;
+}
+
+.bottom-text:hover {
+  color: #ff4d30;
+}
+
+.ask--steps p{
+  color: #706f7b;
+  font-family: Rubik,sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.43;
+  margin-bottom: 2rem;
+}
+
+.questions {
+  height: 620px;
+  width: 100%;
+  font-size: 12px;
+  flex: 0 0 auto;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.questions--column--one {
+  float: left;
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-top: 1rem;
+  max-width: 50rem;
+}
+
+.questions--column--one h3{
+  font-family: Poppins,sans-serif;
+font-size: 2rem;
+font-weight: bold;
+
+}
+
+.questions--column--one h2{
+  color: #ff4d30;
+  font-family: Poppins,sans-serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.contact--form{
+  margin-top: 20px;
+}
+
+form {
+  font-family: Rubik, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+form span {
+  color: #ff4d30;
+}
+
+form input,
+textarea {
+  font-size:1.3rem;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 0.3rem;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+form input:focus {
+  border: 0.1px solid #555;
+}
+
+form input:hover {
+  border: 1px solid;
+}
+
+form textarea:focus {
+  box-shadow: none;
+}
+
+form textarea:hover {
+  border: 1px solid;
+}
+
+form button {
+  font-size:1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: auto;
+  width: auto;
+  padding: 10px 40px;
+  align-items: center;
+  background-color: #696969;
+  color: whitesmoke;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+form button:hover {
+  box-shadow: 0 10px 15px 0 rgba(255, 83, 48, 0.25);
+}
+
+.testimonials--section {
+  height: 500px;
+  width: 100%;
+  margin-top: 30px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.testimonials--section--title {
+  margin: 0 auto 5rem;
+  max-width: 70rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimonials--title--description {
+  color: #706f7b;
+}
+
+.testimonials--boxes {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.testimonials--box--one {
+  background-color: #fff;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  position: relative;
+  width: 54rem;
+  border: 1px bold;
+  border-radius: 15px;
+}
+
+.testimonials--box--two {
+  background-color: #fff;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  position: relative;
+  width: 54rem;
+  border: 1px bold;
+  border-radius: 15px;
+}
+
+.testimonials--profile {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+#testimonials--title--h4{
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: Rubik,sans-serif;
+}
+
+#testimonials--title--h2{
+ 
+  font-family: Poppins,sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+#testimonials--title--p{
+  font-size: 1.5rem;
+  line-height: 1.6;
+  font-family: Rubik,sans-serif;
+}
+
+.testimonials--boxes p{
+  font-size: 1.5rem;
+font-weight: 500;
+}
+
+.testimonials--boxes h4{
+  font-size: 1.8rem;
+}
