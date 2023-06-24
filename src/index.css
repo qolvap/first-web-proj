@@ -823,7 +823,6 @@ font-weight: 500;
   grid-template-columns: 1fr 1fr; /* дві колонки рівної ширини */
   gap: 20px; /* проміжок між колонками */
 }
-
 .column {
   width: 50%;
 }
