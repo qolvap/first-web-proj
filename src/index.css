@@ -724,3 +724,105 @@ font-weight: 500;
 .testimonials--boxes h4{
   font-size: 1.8rem;
 }
+
+
+@media only screen and (max-width: 600px) {
+  nav {
+    padding: 10px 20px;
+  }
+
+  #nav--logo {
+    margin-left: 20px;
+    width: 80px;
+    height: 30px;
+  }
+
+  nav ul {
+    gap: 0.5rem;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .services {
+    height: auto;
+  }
+
+  .service--banner--btn,
+  .email--subscribtion,
+  .ask--q--btn,
+  .learn--more--btn,
+  .advantages--btn {
+    width: 100%;
+  }
+
+.about{
+  flex-direction: column;
+  height: 400px;
+ 
+}
+
+  .about--column--one {
+    font-size: 1rem;
+    font-weight: 100;
+    width: 50%;
+    margin-left: 0;
+    padding: 10px;
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .about h4 {
+    font-size: 1rem;
+    font-weight: 100;
+  }
+
+  .about h1{
+    font-size: 1rem;
+  }
+
+  .truck--img {
+    width: 50%;
+    margin-top: 2rem;
+  }
+
+  .advantage--section--left {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .advantages--section {
+    height: auto;
+  }
+
+  .questions--column--one {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .about--statistics h4{
+    font-size: 3rem;
+  }
+  
+  .about--statistics p{
+    font-size: .9rem;
+}
+.questions{
+  height: 1200px;
+}
+.testimonials--section {
+  height: 800px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.column {
+  width: 50%;
+}
+}
