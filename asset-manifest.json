@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/first-web-proj/static/css/main.915d49ce.css",
+    "main.js": "/first-web-proj/static/js/main.85f33693.js",
+    "static/media/truck.png": "/first-web-proj/static/media/truck.e3093179e15157199cf7.png",
+    "index.html": "/first-web-proj/index.html",
+    "main.915d49ce.css.map": "/first-web-proj/static/css/main.915d49ce.css.map",
+    "main.85f33693.js.map": "/first-web-proj/static/js/main.85f33693.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.915d49ce.css",
+    "static/js/main.85f33693.js"
+  ]
+}
