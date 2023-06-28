@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import truck from "../components/truck.png";
 
 export default function About() {
@@ -17,7 +18,9 @@ export default function About() {
           <p>Your problems — Our solutions in European Road Transport Law</p>
           <br></br>
           <div className="about--btns">
-          <a className="learn--more--btn" href="/Advantages">Learn more</a>
+             <Link className="link" to="/Advantages" >
+                  <li className="learn--more--btn" >Learn more</li>
+                  </Link>
           </div>
         </div>
         <div className="about--column--two">
@@ -38,7 +41,10 @@ export default function About() {
             Speak to one of our lawyers today and find out how we can help you and your business
           </p>
           <br></br>
-          <a className="ask--q--btn" href="/Question">Contact us</a>
+          
+          <Link className="link" to="/Question" >
+                  <li className="ask--q--btn" >Contact us</li>
+                  </Link>
           </div>
 
           <div className="about--statistics">

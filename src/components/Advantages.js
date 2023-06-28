@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import guarantee from "../components/guarantee.png";
 import price from "../components/price.png";
 import update from "../components/update.png";
@@ -30,8 +31,10 @@ export default function Advantages() {
             services and products without breaking the bank.
           </p>
           <br></br>
-          
-                  <a className="advantages--btn" href="/Testimonials">Reviewed by people</a>
+          <Link className="link" to="/Testimonials" >
+                  <li className="advantages--btn" >Reviewed by people</li>
+                  </Link>
+                 
                 
         </div>
         <div className="advantage--section--right">
@@ -75,7 +78,10 @@ export default function Advantages() {
       <div className="banner--section">
       <div className="service--banner">
         <h1 class="bottom-text">What we can do for You?</h1>
-        <a className="service--banner--btn" href="/Services">Check what service we offer</a>
+                <Link className="link" to="/Services" >
+                  <li className="service--banner--btn">Check what service we offer</li>
+                </Link>
+        
       </div>
       </div>
     </section>

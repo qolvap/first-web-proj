@@ -189,6 +189,15 @@ ul {
 .footer--nav{
   color: white;
   text-decoration: none;
+  list-style: none;
+}
+
+.footer--nav:hover{
+  color: #ff4d30
+}
+
+.link{
+  text-decoration: none;
 }
 
 .email--input {
@@ -474,9 +483,8 @@ gap: 2rem;
   background-color: #ff4d30;
   color: whitesmoke;
   padding: 15px 32px;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: flex;
   font-size: 16px;
   margin-right: auto;
   border: none;
@@ -484,6 +492,10 @@ gap: 2rem;
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+li.advantages--btn {
+  text-align: left;
 }
 
 .advantages--btn:hover {
@@ -792,6 +804,9 @@ font-weight: 500;
   .advantage--section--left {
     width: 100%;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .advantages--section {

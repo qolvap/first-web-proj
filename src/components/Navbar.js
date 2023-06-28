@@ -10,7 +10,9 @@ export default function Navbar() {
 
   return (
     <nav>
-        <a href="/About"> <img alt="Logo" src={logo} className="tittle--img" id="nav--logo"/></a>
+      <Link to="/" className="site--title">
+        <img alt="Logo" src={logo} className="tittle--img" id="nav--logo"/>
+        </Link>
       <ul>
         {/* {menuItems.map((menu) => (
           <li>
@@ -19,7 +21,7 @@ export default function Navbar() {
         ))} */}
 
         <li>
-          <Link to="/About" className="site--title">
+          <Link to="/" className="site--title">
             Home
           </Link>
         </li>
